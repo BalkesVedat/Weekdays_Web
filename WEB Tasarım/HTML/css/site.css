@@ -1,0 +1,109 @@
+﻿a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkorange;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+p {
+    color: darkgoldenrod;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: red;
+}
+
+.container {
+    width: 100%;
+}
+
+#MainDiv {
+    /*	width:500px;*/
+    height: 500px;
+    background-color: aqua;
+}
+
+#Line1, #Line3 {
+    background-color: black;
+    height: 25%;
+    text-align: center;
+    align-content: center;
+}
+
+#Line3 {
+    color: aqua;
+}
+
+#Line3Left, #Line3Right {
+    display: inline-block;
+}
+
+#Line3Left {
+    text-align: left;
+    float: left;
+    width: 50%;
+}
+
+#Line3Right {
+    text-align: right;
+    float: right;
+    width: 50%;
+}
+
+#Line2 {
+    background-color: lightgreen;
+    height: 75%;
+}
+
+.Line2 {
+    display: inline-block;
+    height: 100%;
+}
+
+#Line2Left {
+    float: left;
+    width: 33%;
+    background-color: #a2c9FF;
+    align-content: center;
+    text-align: center;
+}
+
+#Line2Right {
+    background-color: aquamarine;
+    width: 67%;
+}
+
+#Line2Line1, #Line2Line2, #Line2Line3 {
+    height: 33.333%;
+    align-content: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+#Line2Line1 {
+    background-color: #25DD39;
+}
+
+#Line2Line2 {
+    background-color: #fa3599;
+}
+
+#Line2Line3 {
+    background-color: #514787;
+}
+
+.divText {
+    margin: 0px 10px 0px 10px;
+    color: white;
+}
+
+.socialmediaicon {
+    height: 32px;
+}
